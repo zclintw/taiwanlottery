@@ -1,0 +1,36 @@
+{
+  "name": "taiwanlottery",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "tdd": "DEBUG=lotto* DEBUG_COLORS=true DEBUG_DEPTH=9 jest --watch",
+    "dev": "DEBUG=lotto* DEBUG_COLORS=true DEBUG_DEPTH=9 nodemon"
+  },
+  "keywords": [
+    "scraping"
+  ],
+  "author": "zclin.tw@gmail.com",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.7.2",
+    "cheerio": "^1.0.0-rc.3",
+    "debug": "^4.1.1",
+    "moment": "^2.27.0",
+    "puppeteer": "^4.0.1",
+    "puppeteer-core": "^4.0.1",
+    "ramda": "^0.27.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.3.1",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "jest": "^26.1.0"
+  }
+}
