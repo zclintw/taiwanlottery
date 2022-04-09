@@ -18,7 +18,7 @@
     "bluebird": "^3.7.2",
     "cheerio": "^1.0.0-rc.3",
     "debug": "^4.1.1",
-    "moment": "^2.27.0",
+    "moment": "^2.29.2",
     "puppeteer": "^4.0.1",
     "puppeteer-core": "^4.0.1",
     "ramda": "^0.27.0"
